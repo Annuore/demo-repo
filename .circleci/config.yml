@@ -3,7 +3,7 @@ jobs:
   build-and-test:
     docker:
       - image: cimg/python:3.10.2
-      working_directory: ~/demorepo
+    working_directory: ~/demorepo
     steps:
       - checkout
       - run:
